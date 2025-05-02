@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.13.35931.197 d17.13
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorDeTarefas.API", "GestorDeTarefas\GestorDeTarefas.API.csproj", "{D20AEDE0-16C5-4DC0-B3E7-2596F28769A2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorDeTarefas.Application", "GestorDeTarefas.Application\GestorDeTarefas.Application.csproj", "{22CF9735-5671-4D32-8944-7D224C8985E2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorDeTarefas.Domain", "GestorDeTarefas.Domain\GestorDeTarefas.Domain.csproj", "{01AE92AE-C9DA-4129-ABF1-EF3A2100964D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorDeTarefas.Infrastructure", "GestorDeTarefas.Infrastructure\GestorDeTarefas.Infrastructure.csproj", "{C7509BE4-01A2-4B73-ADFE-D9E3DB2BCC95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GestorDeTarefas.Tests", "GestorDeTarefas.Tests\GestorDeTarefas.Tests.csproj", "{81D6D13F-F3B5-4401-A428-59F1EF23F204}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{D20AEDE0-16C5-4DC0-B3E7-2596F28769A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D20AEDE0-16C5-4DC0-B3E7-2596F28769A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D20AEDE0-16C5-4DC0-B3E7-2596F28769A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D20AEDE0-16C5-4DC0-B3E7-2596F28769A2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{22CF9735-5671-4D32-8944-7D224C8985E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{22CF9735-5671-4D32-8944-7D224C8985E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{22CF9735-5671-4D32-8944-7D224C8985E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{22CF9735-5671-4D32-8944-7D224C8985E2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01AE92AE-C9DA-4129-ABF1-EF3A2100964D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01AE92AE-C9DA-4129-ABF1-EF3A2100964D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01AE92AE-C9DA-4129-ABF1-EF3A2100964D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01AE92AE-C9DA-4129-ABF1-EF3A2100964D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C7509BE4-01A2-4B73-ADFE-D9E3DB2BCC95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C7509BE4-01A2-4B73-ADFE-D9E3DB2BCC95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C7509BE4-01A2-4B73-ADFE-D9E3DB2BCC95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C7509BE4-01A2-4B73-ADFE-D9E3DB2BCC95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81D6D13F-F3B5-4401-A428-59F1EF23F204}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81D6D13F-F3B5-4401-A428-59F1EF23F204}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81D6D13F-F3B5-4401-A428-59F1EF23F204}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81D6D13F-F3B5-4401-A428-59F1EF23F204}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B8B527B-1AE7-4E75-BB10-A5B77ACB1DDB}
+	EndGlobalSection
+EndGlobal

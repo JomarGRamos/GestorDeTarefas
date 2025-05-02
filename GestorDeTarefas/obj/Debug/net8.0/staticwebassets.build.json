@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "lFp3etkozUuxgp9h1SlNqVUuBW+uC9bqAXGgl9K1LLE=",
+  "Source": "GestorDeTarefas.API",
+  "BasePath": "_content/GestorDeTarefas.API",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

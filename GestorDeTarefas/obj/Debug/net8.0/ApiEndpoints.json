@@ -1,0 +1,97 @@
+[
+  {
+    "ContainingType": "GestorDeTarefas.API.Controllers.GestorDeTarefasController",
+    "Method": "ListarTodasTarefas",
+    "RelativePath": "api/GestorDeTarefas",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorDeTarefas.API.Controllers.GestorDeTarefasController",
+    "Method": "CreateTarefa",
+    "RelativePath": "api/GestorDeTarefas",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "GestorDeTarefas.Application.Services.Tarefas.Commands.CreateTarefaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorDeTarefas.API.Controllers.GestorDeTarefasController",
+    "Method": "AtualizarTarefa",
+    "RelativePath": "api/GestorDeTarefas",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "command",
+        "Type": "GestorDeTarefas.Application.Services.Tarefas.Commands.UpdateTarefaCommand",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorDeTarefas.API.Controllers.GestorDeTarefasController",
+    "Method": "GetTarefaById",
+    "RelativePath": "api/GestorDeTarefas/{id}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorDeTarefas.API.Controllers.GestorDeTarefasController",
+    "Method": "DeletarTarefa",
+    "RelativePath": "api/GestorDeTarefas/{id}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "id",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "GestorDeTarefas.API.Controllers.GestorDeTarefasController",
+    "Method": "Filtrar",
+    "RelativePath": "api/GestorDeTarefas/filtrar",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "Status",
+        "Type": "System.Nullable\u00601[[System.Int32, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      },
+      {
+        "Name": "DataVencimento",
+        "Type": "System.Nullable\u00601[[System.DateTime, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

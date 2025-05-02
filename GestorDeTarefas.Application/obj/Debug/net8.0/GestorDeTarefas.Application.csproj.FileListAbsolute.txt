@@ -1,0 +1,15 @@
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\bin\Debug\net8.0\GestorDeTarefas.Application.deps.json
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\bin\Debug\net8.0\GestorDeTarefas.Application.dll
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\bin\Debug\net8.0\GestorDeTarefas.Application.pdb
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\bin\Debug\net8.0\GestorDeTarefas.Domain.dll
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\bin\Debug\net8.0\GestorDeTarefas.Domain.pdb
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\obj\Debug\net8.0\GestorDeTarefas.Application.csproj.AssemblyReference.cache
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\obj\Debug\net8.0\GestorDeTarefas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\obj\Debug\net8.0\GestorDeTarefas.Application.AssemblyInfoInputs.cache
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\obj\Debug\net8.0\GestorDeTarefas.Application.AssemblyInfo.cs
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\obj\Debug\net8.0\GestorDeTarefas.Application.csproj.CoreCompileInputs.cache
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\obj\Debug\net8.0\GestorDe.90DF813F.Up2Date
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\obj\Debug\net8.0\GestorDeTarefas.Application.dll
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\obj\Debug\net8.0\refint\GestorDeTarefas.Application.dll
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\obj\Debug\net8.0\GestorDeTarefas.Application.pdb
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Application\obj\Debug\net8.0\ref\GestorDeTarefas.Application.dll

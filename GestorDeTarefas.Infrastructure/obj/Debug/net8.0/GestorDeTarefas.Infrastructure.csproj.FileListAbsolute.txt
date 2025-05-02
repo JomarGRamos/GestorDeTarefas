@@ -1,0 +1,15 @@
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\bin\Debug\net8.0\GestorDeTarefas.Infrastructure.deps.json
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\bin\Debug\net8.0\GestorDeTarefas.Infrastructure.dll
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\bin\Debug\net8.0\GestorDeTarefas.Infrastructure.pdb
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\bin\Debug\net8.0\GestorDeTarefas.Domain.dll
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\bin\Debug\net8.0\GestorDeTarefas.Domain.pdb
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\obj\Debug\net8.0\GestorDeTarefas.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\obj\Debug\net8.0\GestorDeTarefas.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\obj\Debug\net8.0\GestorDeTarefas.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\obj\Debug\net8.0\GestorDeTarefas.Infrastructure.AssemblyInfo.cs
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\obj\Debug\net8.0\GestorDeTarefas.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\obj\Debug\net8.0\GestorDe.56BE1A4C.Up2Date
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\obj\Debug\net8.0\GestorDeTarefas.Infrastructure.dll
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\obj\Debug\net8.0\refint\GestorDeTarefas.Infrastructure.dll
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\obj\Debug\net8.0\GestorDeTarefas.Infrastructure.pdb
+C:\Users\Jomar\source\repos\GestorDeTarefas\GestorDeTarefas.Infrastructure\obj\Debug\net8.0\ref\GestorDeTarefas.Infrastructure.dll
