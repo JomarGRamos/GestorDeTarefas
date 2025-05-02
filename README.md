@@ -41,9 +41,8 @@ Para monitoramento e diagnóstico de possíveis erros na aplicação.
 
 Antes de executar o projeto, certifique-se de que você tem as seguintes ferramentas instaladas:
 
-- [Docker](https://www.docker.com/get-started)
 - [.NET 8.0 SDK](https://dotnet.microsoft.com/download/dotnet)
-- [SQL Server Express](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads) (caso não use Docker para rodar o banco de dados)
+- [SQL Server Express](https://www.microsoft.com/pt-br/sql-server/sql-server-downloads)
 
 ## Rodando a aplicação localmente
 
