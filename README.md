@@ -8,6 +8,10 @@ O projeto utiliza os seguintes recursos:
 
 Usado para realizar o mapeamento entre objetos de tipos diferentes, como entre entidades do domínio e os DTOs.
 
+#### SonarAnalyzer:
+
+Usado para reduzir a presença de Code Smells no código.
+
 #### MediatR:
 
 O padrão Mediator ajuda a reduzir o acoplamento entre os componentes da aplicação ao permitir que objetos se comuniquem entre si sem a necessidade de se referirem diretamente.
