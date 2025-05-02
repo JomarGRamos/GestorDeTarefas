@@ -8,6 +8,7 @@ using Microsoft.Extensions.Logging;
 using GestorDeTarefas.Domain.Interfaces;
 using FluentValidation;
 using GestorDeTarefas.Domain.Enums;
+using GestorDeTarefas.Application.Services.Tarefas.Commands;
 
 namespace GestorDeTarefas.Tests
 {
@@ -93,5 +94,66 @@ namespace GestorDeTarefas.Tests
             // Act & Assert
             await Assert.ThrowsAsync<KeyNotFoundException>(() => _tarefaService.ObterTarefaPorIdAsync(idTarefa));
         }
+
+        [Fact]
+        public async Task CriarTarefa_Sucesso()
+        {
+            // Arrange
+            var command = new CreateTarefaCommand
+            {
+                Titulo = "Nova tarefa",
+                Descricao = "Teste",
+                Status = StatusTarefa.Pendente,
+                DataVencimento = DateTime.Now.AddDays(1)
+            };
+
+            var tarefa = new Tarefa(command.Titulo, command.Descricao, command.Status, command.DataVencimento);
+            var tarefaDto = new TarefaDto { Id = 1, Titulo = tarefa.Titulo };
+
+            _mockValidator.Setup(v => v.ValidateAsync(It.IsAny<Tarefa>(), default))
+                .ReturnsAsync(new FluentValidation.Results.ValidationResult());
+
+            _mockUnitOfWork.Setup(u => u.TarefaRepository.AdicionarAsync(It.IsAny<Tarefa>()));
+            _mockUnitOfWork.Setup(u => u.CommitAsync());
+
+            _mockMapper.Setup(m => m.Map<TarefaDto>(It.IsAny<Tarefa>()))
+                .Returns(tarefaDto);
+
+            // Act
+            var result = await _tarefaService.CriarTarefaAsync(command);
+
+            // Assert
+            Assert.NotNull(result);
+            Assert.Equal("Nova tarefa", result.Titulo);
+           
+        }
+
+        [Fact]
+        public async Task CriarTarefa_Falha()
+        {
+            // Arrange
+            var command = new CreateTarefaCommand
+            {
+                Titulo = "",
+                Descricao = "Descrição",
+                Status = StatusTarefa.Pendente,
+                DataVencimento = DateTime.Now
+            };
+
+            var validationResult = new FluentValidation.Results.ValidationResult(
+                new List<FluentValidation.Results.ValidationFailure>
+                {
+            new("Titulo", "O título é obrigatório")
+                });
+
+            _mockValidator.Setup(v => v.ValidateAsync(It.IsAny<Tarefa>(), default))
+                .ReturnsAsync(validationResult);
+
+            // Act & Assert
+            var ex = await Assert.ThrowsAsync<Exception>(() => _tarefaService.CriarTarefaAsync(command));
+            Assert.Contains("O título é obrigatório", ex.Message);
+            
+        }
+
     }
 }
