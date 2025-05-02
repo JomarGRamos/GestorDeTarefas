@@ -8,6 +8,10 @@ O projeto utiliza os seguintes recursos:
 
 Usado para realizar o mapeamento entre objetos de tipos diferentes, como entre entidades do domínio e os DTOs.
 
+#### MediatR:
+
+O padrão Mediator ajuda a reduzir o acoplamento entre os componentes da aplicação ao permitir que objetos se comuniquem entre si sem a necessidade de se referirem diretamente.
+
 #### Entity Framework Core:
 
 Para persistência de dados com o banco de dados. Está sendo utilizado para realizar operações de CRUD (Create, Read, Update, Delete) e o gerenciamento de conexões com o banco de dados (SQL Server).
